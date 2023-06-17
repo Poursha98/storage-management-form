@@ -1,0 +1,121 @@
+
+* {
+    font-size: 16px;
+    font-weight: lighter;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: Vazirmatn, sans-serif !important;
+}
+
+::-webkit-input-placeholder {
+    font-size: 14px;
+}
+
+.sample_farsi_digits {
+    font-feature-settings: "ss01";
+}
+
+.plate-expl {
+    color: red;
+}
+
+
+
+.inp {
+    margin: 10px;
+}
+
+.container2{
+    width: 43%
+}
+
+
+
+/* car Plate styles: */
+
+.registration-ui {
+    box-sizing: border-box;
+    background: #fff;
+    /*padding: .25em .5em .15em 1.75em;*/
+    font-size: 24px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    position: relative;
+    display: inline-block;
+    height: 37px;
+    width:350px;
+
+
+
+
+}
+
+.registration-ui:before {
+    content: 'IRAN';
+    display: block;
+    width: 30px;
+    background: #003399;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px 0 0 5px;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 60px;
+    padding-left: 1px;
+    background-position: 2px 6px;
+    background-size: 27px;
+    background-repeat: no-repeat;
+    height: 37px;
+}
+
+.registration-ui:after {
+    content: '.I.R';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    font-size: 10px;
+    line-height: 35px;
+    color: white;
+    padding-left: 1px;
+    height: 37px;
+}
+.plate-1{
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.plate-2{
+    float: right;
+    /*padding-left: 10px;*/
+    border-left: 1px solid black;
+    margin-left: 10px;
+
+}
+
+
+.plate-inp{
+    width: 30%;
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-bottom: 5px;
+}
+.plate-inp:nth-child(4){
+    width: 20%;
+}
+
+.plate-inp:nth-child(3){
+   width: 20%
+}
+.plate-inp:nth-child(2){
+    width: 30%;
+}
+.plate-inp:nth-child(2){
+    width: 30%;
+}
