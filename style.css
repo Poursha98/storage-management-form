@@ -45,6 +45,13 @@ nav.navbar.sticky {
     z-index: 100;
 }
 
+a.navbar-brand:hover{
+
+    color: #003399 !important;
+    transition: 0.3s;
+}
+
+
 /* car Plate styles: */
 
 .registration-ui {
