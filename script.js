@@ -1,4 +1,5 @@
 window.onload = function () {
+    stickyNavbar();
     jalaliDatepicker.startWatch({
         autoShow: false
     });
@@ -39,3 +40,15 @@ const convertToPersianNumerals = event => {
     event.target.value = typedValue.replace(/[0-9]/g, numeral => String.fromCharCode(numeral.charCodeAt(0) + 1728));
 };
 
+//navbar
+function stickyNavbar() {
+    var navbar = document.querySelector('nav.navbar');     // Get the navbar
+    var topOffset = navbar.offsetTop;     // Calculate the distance between the navbar and the page top
+    window.onscroll = function() {        // Add a scroll listener to the window
+        if (window.pageYOffset >= topOffset) {    // Check if the user has scrolled past the navbar
+            navbar.classList.add('sticky-top');    // Add the 'sticky-top' class to the navbar
+        } else {
+            navbar.classList.remove('sticky-top'); // Remove the 'sticky-top' class from the navbar to restore its original position
+        }
+    };
+}

@@ -3,6 +3,7 @@
     font-size: 16px;
     font-weight: lighter;
     box-sizing: border-box;
+    font-family: Vazirmatn, sans-serif !important;
 
 }
 
@@ -26,16 +27,23 @@ body {
 }
 
 
-
 .inp {
     margin: 10px;
 }
 
-.container2{
+.container2 {
     width: 43%
 }
 
-
+/*navbar*/
+.navbar{
+    background: #77baff ;
+}
+nav.navbar.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
 
 /* car Plate styles: */
 
@@ -49,10 +57,7 @@ body {
     position: relative;
     display: inline-block;
     height: 37px;
-    width:350px;
-
-
-
+    width: 350px;
 
 }
 
@@ -87,12 +92,14 @@ body {
     padding-left: 1px;
     height: 37px;
 }
-.plate-1{
+
+.plate-1 {
     float: left;
     margin-top: 5px;
     margin-right: 5px;
 }
-.plate-2{
+
+.plate-2 {
     float: right;
     /*padding-left: 10px;*/
     border-left: 1px solid black;
@@ -101,23 +108,26 @@ body {
 }
 
 
-.plate-inp{
+.plate-inp {
     width: 30%;
     background: transparent;
     border: none;
     outline: none;
     margin-bottom: 5px;
 }
-.plate-inp:nth-child(4){
+
+.plate-inp:nth-child(4) {
     width: 20%;
 }
 
-.plate-inp:nth-child(3){
-   width: 20%
+.plate-inp:nth-child(3) {
+    width: 20%
 }
-.plate-inp:nth-child(2){
+
+.plate-inp:nth-child(2) {
     width: 30%;
 }
-.plate-inp:nth-child(2){
+
+.plate-inp:nth-child(2) {
     width: 30%;
 }
