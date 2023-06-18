@@ -50,7 +50,18 @@ a.navbar-brand:hover{
     color: #003399 !important;
     transition: 0.3s;
 }
+/*sapco title over svg*/
+.mySvg {
+    position: relative;
 
+}
+.sapco-heading-txt {
+    position: absolute;
+    top: 2rem;
+    left:50rem ;
+    z-index: 1; /* Set the z-index to a higher value than the SVG image */
+
+}
 
 /* car Plate styles: */
 
