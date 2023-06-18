@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;700&family=Vazirmatn:wght@200;400;600&display=swap"
           rel="stylesheet">
 
+    <!--    jalali datepicker-->
     <link rel="stylesheet" href="https://unpkg.com/@majidh1/jalalidatepicker/dist/jalalidatepicker.min.css">
     <script type="text/javascript"
             src="https://unpkg.com/@majidh1/jalalidatepicker/dist/jalalidatepicker.min.js"></script>
@@ -26,6 +27,9 @@
     <!--    bootstrap icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
+    <!--    bootstrap tables-->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.22.0/dist/bootstrap-table.min.css">
+    <script src="https://unpkg.com/bootstrap-table@1.22.0/dist/bootstrap-table.min.js"></script>
     <!--    car plate-->
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
@@ -233,7 +237,7 @@
         </div>
     </div>
 
-    <div class="container container2 border border-1 rounded mt-2">
+    <div class="container container2 border border-1 rounded mt-2 mb-5">
         <div class=" d-flex justify-content-center align-items-center ">
             <button class="btn btn-secondary border border-1 mx-1 my-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save"
@@ -284,9 +288,11 @@
             </button>
         </div>
     </div>
-    <table class="table table-striped table-bordered justify-content-center align-items-center mt-4">
+    <table class="table table-striped table-bordered justify-content-center align-items-center table-responsive shadow-sm"
+           id="table">
         <thead>
         <tr class="">
+            <input type="text" placeholder="جست و جو" class="form-control w-25 mb-1 shadow-sm">
             <th scope="col">ردیف</th>
             <th scope="col">شماره فنی</th>
             <th scope="col">کد جنس</th>
