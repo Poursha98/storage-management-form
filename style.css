@@ -9,11 +9,13 @@
 
 body {
     font-family: Vazirmatn, sans-serif !important;
+    background-color: #e5f8ff;
 }
 
 ::-webkit-input-placeholder {
     font-size: 14px;
 }
+
 
 .sample_farsi_digits {
     font-feature-settings: "ss01";
