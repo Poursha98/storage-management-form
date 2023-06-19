@@ -49,33 +49,6 @@ a.navbar-brand:hover{
     position: relative;
 
 }
-.sapco-heading-txt {
-    position: absolute;
-    top: 2rem;
-    left:50rem ;
-    z-index: 1; /* Set the z-index to a higher value than the SVG image */
-}
-@media (min-width: 768px) {
-    .sapco-heading-txt {
-        left: 35%;
-    }
-}
-
-@media (min-width: 992px) {
-    .sapco-heading-txt {
-        left: 40%;
-    }
-
-
-}
-
-
-@media (min-width: 1200px) {
-    .sapco-heading-txt {
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
 
 /*edit buttons section */
 .container2 button{
@@ -210,4 +183,20 @@ thead tr{
 
 .plate-inp:nth-child(2) {
     width: 30%;
+}
+
+/*breadcrumb*/
+.breadcrumb li{
+    cursor: pointer;
+}
+.breadcrumb-div{
+    background-color: #94949456;
+    height: 40px;
+
+}
+@media (max-width: 940px) {
+    .breadcrumb-div,.breadcrumb{
+        display: none !important;
+        background: transparent !important;
+    }
 }
