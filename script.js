@@ -32,13 +32,13 @@ window.onload = function () {
     }
 }
 //convert english digits to persian
-const convertToPersianNumerals = event => {
-    // Get the typed value from the input
-    const typedValue = event.target.value;
-    // Replace each Arabic numeral with the corresponding Persian numeral
-    // Set the input value to the Persian numerals
-    event.target.value = typedValue.replace(/[0-9]/g, numeral => String.fromCharCode(numeral.charCodeAt(0) + 1728));
-};
+// const convertToPersianNumerals = event => {
+//     // Get the typed value from the input
+//     const typedValue = event.target.value;
+//     // Replace each Arabic numeral with the corresponding Persian numeral
+//     // Set the input value to the Persian numerals
+//     event.target.value = typedValue.replace(/[0-9]/g, numeral => String.fromCharCode(numeral.charCodeAt(0) + 1728));
+// };
 
 //navbar
 function stickyNavbar() {
