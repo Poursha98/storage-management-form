@@ -31,7 +31,7 @@ body {
 
 /*navbar*/
 .navbar{
-    background: #77baff ;
+    background: #3362da;
 }
 nav.navbar.sticky {
     position: fixed;
@@ -41,7 +41,7 @@ nav.navbar.sticky {
 
 a.navbar-brand:hover{
 
-    color: #003399 !important;
+    color: #888888 !important;
     transition: 0.3s;
 }
 /*sapco title over svg*/
