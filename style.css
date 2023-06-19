@@ -112,6 +112,16 @@ thead tr{
         padding: 4px 8px
     }
 }
+@media (max-width: 429px) {
+    .gozineha button:nth-child(1) {
+        box-sizing: border-box;
+        padding: 14px 11px
+    }
+    .gozineha button:nth-child(2) {
+        box-sizing: border-box;
+        padding: 14px 11px
+    }
+}
 
 /* car Plate styles: */
 .registration-ui {
