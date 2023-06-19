@@ -27,9 +27,6 @@ body {
 }
 
 
-/*.inp {*/
-/*    margin: 10px;*/
-/*}*/
 
 
 /*navbar*/
@@ -68,7 +65,10 @@ a.navbar-brand:hover{
     .sapco-heading-txt {
         left: 40%;
     }
+
+
 }
+
 
 @media (min-width: 1200px) {
     .sapco-heading-txt {
@@ -88,6 +88,30 @@ a.navbar-brand:hover{
     overflow-x: auto;
     overflow-y: auto;
 }
+thead tr{
+    text-align: center;
+}
+@media (max-width: 991px) {
+    table td {
+        horiz-align: center;
+        vertical-align: middle;
+    }
+    table tr {
+        height: 100px;
+    }
+}
+@media (max-width: 768px) {
+    .gozineha button:nth-child(1) {
+        box-sizing: border-box;
+        padding: 14px 8px
+    }
+}
+@media (max-width: 576px) {
+    .gozineha button:nth-child(1) {
+        box-sizing: border-box;
+        padding: 4px 8px
+    }
+}
 
 /* car Plate styles: */
 .registration-ui {
@@ -99,9 +123,12 @@ a.navbar-brand:hover{
     position: relative;
     display: inline-block;
     height: 37px;
-    width: 280px;
-
-
+    max-width: 510px;
+}
+@media (min-width: 768px) {
+    .registration-ui {
+        margin-left: 10px;
+    }
 }
 
 .registration-ui:before {
